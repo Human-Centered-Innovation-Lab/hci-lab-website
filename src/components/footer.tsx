@@ -20,27 +20,19 @@ export async function Footer() {
           </Link>
 
           <div className="footer-institution-logos">
-            <div className="footer-institution-logo">
-              {/* Kyoto University logo */}
-              <Image
-                src="/images/kyoto_university_logo_white.png"
-                alt="Kyoto University"
-                width={180}
-                height={55}
-                className="footer-logo-image"
-              />
-            </div>
+            {/* Kyoto University logo placeholder */}
+            <div
+              className="footer-institution-logo logo-placeholder"
+              style={{ width: 180, height: 55 }}
+              aria-label="Kyoto University logo placeholder"
+            />
 
-            <div className="footer-institution-logo">
-              {/* Graduate School of Management logo */}
-              <Image
-                src="/images/gsm_logo.jpeg"
-                alt="Kyoto University Graduate School of Management"
-                width={140}
-                height={55}
-                className="footer-logo-image"
-              />
-            </div>
+            {/* Graduate School of Management logo placeholder */}
+            <div
+              className="footer-institution-logo logo-placeholder"
+              style={{ width: 140, height: 55 }}
+              aria-label="Graduate School of Management logo placeholder"
+            />
           </div>
 
         </div>

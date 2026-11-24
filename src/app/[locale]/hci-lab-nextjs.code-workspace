@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../hci-lab-nextjs_modern"
+		}
+	],
+	"settings": {}
+}
