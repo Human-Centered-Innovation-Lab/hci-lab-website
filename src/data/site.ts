@@ -12,12 +12,8 @@ export type LocalizedText = {
 
 export type MemberCategory =
   | "faculty"
-  | "postdoc"
-  | "phd"
-  | "masters"
-  | "undergraduate"
-  | "staff"
-  | "collaborator";
+  | "researcher";
+
 
 
 
@@ -102,11 +98,11 @@ export const members: Member[] = [
   {
     id: "nguyen-van-tung",
     name: "Nguyen Van Tung",
-    category: "masters",
+    category: "researcher",
 
     role: {
-      en: "Research Assistant",
-      ja: "修士2年",
+      en: "M2 Student",
+      ja: "修士課程2年",
     },
 
     affiliation: {
@@ -120,11 +116,11 @@ export const members: Member[] = [
     id: "alessa-castillo",
     name: "Alessa Castillo",
     nameJa: "キャスティーオ・アレサ",
-    category: "staff",
+    category: "researcher",
 
     role: {
-      en: "Technical Assistant",
-      ja: "技術補佐員",
+      en: "Research Student",
+      ja: "研究学生",
     },
 
     affiliation: {

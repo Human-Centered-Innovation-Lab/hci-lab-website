@@ -31,12 +31,7 @@ export async function generateMetadata({
 
 const categories: MemberCategory[] = [
   "faculty",
-  "postdoc",
-  "phd",
-  "masters",
-  "undergraduate",
-  "staff",
-  "collaborator",
+  "researcher",
 ];
 
 export default async function People() {
